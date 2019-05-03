@@ -21,3 +21,5 @@ def take_a_number(array, name)
     return #{name} , position 
 end
 
+def now_serving(array)
+  
