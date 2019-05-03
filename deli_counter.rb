@@ -15,9 +15,9 @@ def line(array)
 end 
 
 def take_a_number(deli, name)
-   counter == index + 1
-  deli.each do |name|
-    deli.push(#{counter} . #{name})
-    counter += 1
-  end
+    array.push(name)
+  position = array.index(name)
+  puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
+  return name, position 
+end 
 end
